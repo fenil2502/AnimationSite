@@ -25,7 +25,7 @@ class Footer extends Component {
               <a
                 href="https://www.fenilpatel.in/"
                 target="_blank"
-                rel="noopener nofollow"
+                rel="noreferrer"
               >
                 Fenil
               </a>{" "}
@@ -33,7 +33,7 @@ class Footer extends Component {
               <a
                 href="https://www.virenpatel.in/"
                 target="_blank"
-                rel="noopener nofollow"
+                rel="noreferrer"
               >
                 Viren
               </a>

@@ -49,7 +49,7 @@ class BMW extends Component {
                   </li>
                   <li>
                     <strong>Iconic Design:</strong> Make a statement with the
-                    Range Rover's timeless and elegant design.
+                    Range Rover&apos;s timeless and elegant design.
                   </li>
                 </ul>
               </div>
