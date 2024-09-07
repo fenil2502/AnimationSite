@@ -361,12 +361,13 @@
 .bmw,
 .range-rover {
   .hero {
-    height: 100vh;
+    height: 600px;
 
     .hero-image {
       height: 100%;
       width: 100%;
       object-fit: cover;
+      object-position: center 70%;
     }
   }
 
@@ -602,12 +603,20 @@
     .zigzag {
       .zigzag-inner {
         grid-template-columns: repeat(1, 100%);
+
+        .zigzag-content {
+          padding: 40px 0 0;
+        }
       }
     }
 
     .zigzag-rev {
       .zigzag-rev-inner {
         grid-template-columns: repeat(1, 100%);
+
+        .zigzag-rev-content {
+          padding: 40px 0 0;
+        }
       }
     }
 
@@ -618,6 +627,10 @@
 
   .bmw,
   .range-rover {
+    .hero {
+      height: 400px;
+    }
+
     .features {
       padding: 60px;
 
@@ -714,6 +727,17 @@
   }
 
   .home {
+    .hero {
+      .slider {
+        .slide {
+          .banner-img {
+            width: 100%;
+            height: 240px;
+          }
+        }
+      }
+    }
+
     .box-sec {
       padding: 60px 0;
 
@@ -729,6 +753,10 @@
 
   .bmw,
   .range-rover {
+    .hero {
+      height: 300px;
+    }
+
     .features {
       padding: 40px 0;
     }
